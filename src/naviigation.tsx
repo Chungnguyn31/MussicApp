@@ -5,6 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import layouit1 from './layouit1';
 import Layoutlist from './Layoutlist';
 import test from './test';
+import layout3 from './layout3';
 const Stack = createStackNavigator();
 export default function naviigation() {
   return (
@@ -27,6 +28,13 @@ export default function naviigation() {
         <Stack.Screen
           name="layouit1"
           component={layouit1}
+          options={{
+            headerShown: false,
+          }}
+        />
+          <Stack.Screen
+          name="layout3"
+          component={layout3}
           options={{
             headerShown: false,
           }}

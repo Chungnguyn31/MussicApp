@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Text, Image, TouchableOpacity, StyleSheet} from 'react-native';
-import {Appbar, Button, Card, ProgressBar, Surface} from 'react-native-paper';
+import {Appbar, Button, Card, ProgressBar, Surface, Title} from 'react-native-paper';
 import naviigation from './naviigation';
 
 export default function test({navigation}) {
