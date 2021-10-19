@@ -14,6 +14,12 @@ export default function Layoutlist({navigation} ) {
       <Button onPress ={()=>navigation.navigate('layout3')}>
       <Text>Layout3</Text>
       </Button>
+      <Button onPress ={()=>navigation.navigate('layout4')}>
+      <Text>Layout4</Text>
+      </Button>
+      <Button onPress ={()=>navigation.navigate('layout5')}>
+      <Text>Layout5</Text>
+      </Button>
     </View>
   )
 }
