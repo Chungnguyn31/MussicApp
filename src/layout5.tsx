@@ -29,7 +29,7 @@ export default function layout5({navigation}) {
           <ToggleButton
             style={s.button}
             icon="chat"
-            color="#4B41F1"
+            color="#B7B3F9"
             value="left"
           />
           <ToggleButton
