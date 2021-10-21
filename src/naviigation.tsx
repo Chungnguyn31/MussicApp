@@ -9,6 +9,7 @@ import layout3 from './layout3';
 import layout4 from './layout4';
 import layout5 from './layout5';
 import layout6 from './layout6';
+import layout7 from './layout7';
 
 const Stack = createStackNavigator();
 export default function naviigation() {
@@ -64,7 +65,13 @@ export default function naviigation() {
             headerShown: false,
           }}
         />
-         
+           <Stack.Screen
+          name="layout7"
+          component={layout7}
+          options={{
+            headerShown: false,
+          }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );

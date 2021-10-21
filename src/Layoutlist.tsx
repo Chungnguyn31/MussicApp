@@ -23,6 +23,9 @@ export default function Layoutlist({navigation} ) {
       <Button onPress ={()=>navigation.navigate('layout6')}>
       <Text>Layout6</Text>
       </Button>
+      <Button onPress ={()=>navigation.navigate('layout7')}>
+      <Text>Layout7</Text>
+      </Button>
     </View>
   )
 }
