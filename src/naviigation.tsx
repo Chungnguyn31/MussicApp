@@ -11,6 +11,7 @@ import layout5 from './layout5';
 import layout6 from './layout6';
 import layout7 from './layout7';
 import layout8 from './layout8';
+import layout9 from './layout9';
 
 const Stack = createStackNavigator();
 export default function naviigation() {
@@ -76,6 +77,13 @@ export default function naviigation() {
          <Stack.Screen
           name="layout8"
           component={layout8}
+          options={{
+            headerShown: false,
+          }}
+        />
+         <Stack.Screen
+          name="layout9"
+          component={layout9}
           options={{
             headerShown: false,
           }}

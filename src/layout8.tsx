@@ -68,7 +68,7 @@ export default function layout8() {
         </View>
  
         <View style={{alignItems:'center',position:'relative',justifyContent:'flex-start',elevation:5}}>
-       <TouchableRipple  onPress={() => {}} rippleColor="#ffff">
+       <TouchableRipple style={s.img1} onPress={() => {}} rippleColor="#fff">
   <Image source={require(('./img/buttonlayout8.png'))}></Image>
   </TouchableRipple>
     <Text style={s.text}>Continue</Text>
@@ -114,5 +114,11 @@ const s = StyleSheet.create({
     position:'absolute',
     color:'#ffff',
 top:30
+  },img1:{
+    width:248,
+    height:56,
+    alignItems:'center',
+
   }
+
 });
