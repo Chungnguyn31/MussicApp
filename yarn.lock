@@ -1991,6 +1991,18 @@ browserslist@^4.16.6, browserslist@^4.17.3:
     node-releases "^1.1.77"
     picocolors "^0.2.1"
 
+bs-react-native-paper@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/bs-react-native-paper/-/bs-react-native-paper-5.1.0.tgz#f7ad99c977cb12454d5c696747e4e6b65ea20896"
+  integrity sha512-TJgK+8w+nVqA96APY0AaCyhu/Ix1EjBr7WsWgrbYUAceBz0vCfMkHEvGTQcR2UIJqZhWryx0l06z2q7j+Tqi9A==
+  dependencies:
+    bs-react-native "^0.9.0"
+
+bs-react-native@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/bs-react-native/-/bs-react-native-0.9.0.tgz#198a0d198d296e0a500be950ad43d8d31497cbe9"
+  integrity sha512-dCZU+xYCZ3rGumGBJo/8w3WpeicjkfilK5vzT/MRCEYxC1ezisEOjAvaksx6uTFjv20RKsrqTpeJINjFClP/QA==
+
 bser@2.1.1:
   version "2.1.1"
   resolved "https://registry.npmjs.org/bser/-/bser-2.1.1.tgz"
@@ -5670,7 +5682,7 @@ react-native-iphone-x-helper@^1.2.1, react-native-iphone-x-helper@^1.3.1:
 
 react-native-paper@^4.9.2:
   version "4.9.2"
-  resolved "https://registry.npmjs.org/react-native-paper/-/react-native-paper-4.9.2.tgz"
+  resolved "https://registry.yarnpkg.com/react-native-paper/-/react-native-paper-4.9.2.tgz#6ecdd81acf2cf4d6d5f0247d4c1812dea93eade0"
   integrity sha512-J7FRsd0YblQawtuj9I46F//apZHadsCKk6jWpc6njFTYdgUeCdkR8KgEto7cp2WxbcGNELx7KGwPQ4zAgX746A==
   dependencies:
     "@callstack/react-theme-provider" "^3.0.6"
