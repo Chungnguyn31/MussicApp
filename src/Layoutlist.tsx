@@ -44,6 +44,9 @@ export default function Layoutlist({navigation} ) {
       <Button onPress ={()=>navigation.navigate('layout13')}>
       <Text>Layout13</Text>
       </Button>
+      <Button onPress ={()=>navigation.navigate('layout14')}>
+      <Text>Layout14</Text>
+      </Button>
     </View>
   )
 }
